@@ -17,4 +17,4 @@ __pycache__/
 # ignore IDE settings - same reasoning
 .vscode/
 
-*.json
+

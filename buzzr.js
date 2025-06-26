@@ -17,8 +17,8 @@ const SESSION_TIMEOUT = 15 * 60 * 1000;
 
 const config = {
     token: process.env.DISCORD_BOT_TOKEN,
-    clientId: process.env.BOT_CLIENT_ID,  // Changed to camelCase
-    guildId: process.env.GUILD_ID,        // Changed to camelCase
+    clientId: process.env.BOT_CLIENT_ID,  
+    guildId: process.env.GUILD_ID,    
     twilio: {
         account_sid: process.env.TWILIO_ACCOUNT_SID,
         auth_token: process.env.TWILIO_AUTH_TOKEN,

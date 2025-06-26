@@ -1,0 +1,18 @@
+# ignore venv folder - ignore because it is large, auto generated, and environment-specific, so not necessary for other users to see
+Buzzr_venv/
+
+node_modules/
+
+*.db
+
+*.log
+
+# ignore hidden files
+.env
+
+#ignore python cache files - not needed because they are useless and clutter the repo -- also changed from python to javaScript, so not necessary
+__pycache__/
+*.__pycache__
+
+# ignore IDE settings - same reasoning
+.vscode/
